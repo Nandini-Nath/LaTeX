@@ -187,5 +187,75 @@
 \subsection*{Entry by Stuti Biswas}
 \textit{Date: [\today]}\\
 % Write your lab notebook entry here.
+\section*{\Huge{Git Assignment 3 : Branching and Merging}}
+
+\paragraph{Objective:} Demonstrate proficiency in Git branching, merging, and conflict resolution.
+
+\vspace{0.5cm}
+
+% Manually resizing the images to fit within the page margins
+% Screenshot 1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/commit_history.png} % Adjusted width
+     \hspace{4 cm}
+    \caption{Screenshot of the GitHub repository showing the commit history.}
+\end{figure}
+
+% Screenshot 2 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/branching.png} % Adjusted width
+     \hspace{4 cm}
+    \caption{Screenshot of the GitHub repository showing the branching.}
+\end{figure}
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-1.5cm}
+% Screenshot 3
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/deleted_branches.png}
+       \hspace{4 cm}
+    \caption{Repository after deleting branches 'feature-1' and 'feature-2'.}
+    \label{fig:enter-label}
+\end{figure}
+% Screenshot 4
+\hspace{6 cm}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/git_log.png} % Adjusted width
+    \hspace{4 cm}
+    \caption{Screenshot of the local machine showing the Git log.}
+\end{figure}
+\hspace{6 cm}
+% Screenshot 5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/conflict_resolution.png} % Adjusted width
+       \hspace{4 cm}
+    \caption{Screenshot of the local machine showing conflict resolution.}
+\end{figure}
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-1.5cm}
+\subsection*{\Huge{Write-Up: Experience with Git Branching and Merging}}
+\hspace{1 cm}
+\paragraph {This assignment focused on the use of Git branching and merging to manage features in a collaborative environment. After creating separate branches for feature-1 and feature-2, each was developed independently.
+When merging feature-1 into the main branch, there were no conflicts. However, the merge of feature-2 caused a conflict in the shared.txt file. Conflict resolution was done manually, ensuring that the changes from both branches were retained.
+The practical experience highlighted the importance of clear commit messages and Git’s branching capabilities for parallel development and conflict management.}
 
 \end{document}
