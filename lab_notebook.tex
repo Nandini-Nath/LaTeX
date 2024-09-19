@@ -451,6 +451,72 @@ public class SymbolApp extends Frame implements ActionListener {
 \subsection*{Entry by Sourav Kundu}
 \textit{Date: [\today]}\\
 % Write your lab notebook entry here.
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{mdframed} % For creating the outer border
+
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+% Remove page numbering
+\thispagestyle{empty}
+
+% Outer border for the entire content
+\begin{mdframed}[linewidth=2pt, roundcorner=10pt, nobreak=true]
+
+% Header
+\begin{center}
+    {\Large \textbf{Lab Notebook Entries}} \\
+    \vspace{0.3cm} % Reduced space
+    \textit{Entry by Sourav Kundu} \\
+    \vspace{0.2cm}
+    Date: \textit{[September 12, 2024]} \\
+    \vspace{0.8cm} % Reduced space
+    \includegraphics[width=0.2\textwidth]{latex.jpg} % Reduced image size
+    \vspace{0.8cm} % Reduced space
+\end{center}
+
+% Title
+\begin{center}
+    {\LARGE \textbf{LaTeX}}
+\end{center}
+
+\vspace{0.3cm} % Reduced space
+
+% Content
+\noindent
+LaTeX is a powerful document preparation system widely used in academia, research, and professional publishing. It is based on the TeX typesetting system and allows users to create high-quality documents, including articles, books, reports, and presentations. LaTeX is particularly popular in fields that require complex formatting, such as mathematics, physics, and computer science, due to its superior handling of formulas, citations, and references. LaTeX separates content from formatting, allowing writers to focus on the content itself while the system ensures consistent and professional typesetting.
+
+\vspace{0.5cm} % Reduced space
+
+% Usage Section
+\noindent
+\textbf{\Large Usage}
+
+\vspace{0.3cm} % Reduced space
+
+\noindent
+Using LaTeX begins with writing plain text in a source file, which contains both the content of the document and LaTeX commands for formatting. LaTeX files typically have a \texttt{.tex} extension. To compile a LaTeX document, a LaTeX distribution (such as \texttt{TeXLive} or \texttt{MikTeX}) is used, converting the source file into a well-formatted PDF output.
+
+\vspace{0.2cm}
+
+The system excels at managing references, creating bibliographies, and producing structured documents such as theses and dissertations. Users define sections, equations, tables, and figures using simple commands, and LaTeX ensures they are consistently formatted throughout the document.
+
+Moreover, LaTeX supports various packages that extend its functionality, such as \texttt{amsmath} for mathematical notation and \texttt{graphicx} for including images. Many integrated development environments (IDEs) like Overleaf, TeXShop, and Texmaker simplify the process of writing and compiling LaTeX documents.
+
+\vspace{0.3cm} % Reduced space
+
+In summary, LaTeX is a versatile tool that ensures professional-quality typesetting while providing flexibility and control over complex document formatting. It is invaluable for writers in technical fields or anyone looking to produce polished, well-organized documents.
+
+\end{mdframed}
+
+\end{document}
+
 
 \newpage
 \begin{tikzpicture}
